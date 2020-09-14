@@ -1,0 +1,30 @@
+.bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.bar_black {
+  background-color: #111;
+}
+
+.netflix_logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.user_logo {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
